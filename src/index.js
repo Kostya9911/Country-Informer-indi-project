@@ -11,7 +11,7 @@ const listCoutries = document.querySelector('.country-list');
 const singleCountry = document.querySelector('.country-info');
 
 input.addEventListener('input', debounce(inputText, DEBOUNCE_DELAY));
-
+console.log(777);
 function inputText() {
   listCoutries.innerHTML = ' ';
   singleCountry.innerHTML = ' ';
